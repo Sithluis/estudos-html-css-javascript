@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registros da União Azul</title> 
+</head>
+<body>
+    <h1>Sistema de Registros, Seja bem-Vindo.</h1>
+    Planeta do usuario: <input type="text" name="textpla" id="textpla"> 
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res">
+
+    </div>
+    <script>
+        function calcular() {
+            var txtp = window.document.querySelector('input#textpla')
+            var res = window.document.querySelector('div#res')
+            var pla = txtp.value.trim()
+            if (pla == "") {
+                res.innerHTML = '<p>Por Favor digite o nome do seu Planeta de origem ou de moradia.<p>'
+                } else if (pla == "Terra") {     
+                res.innerHTML = '<p>Seu Planeta é a <strong>Terra</strong>, Aqui estão os registros, Glória a União Azul!<p>' // se o usuario for da terra ele tera acesso a seus registro, a terra faz parte da uniao azul, trindande composta por Terra, Netuno e Urano!
+             }  else {
+             res.innerHTML = `<p>Seu Planeta é <strong>${pla}</strong>, você não consta no registro!`// essa é a mensagem que aparece caso o usuario for de um planeta de fora da uniao azul, logo ele não consta nesse registro do sistema losar
+             }  if (pla == "Netuno") {
+                res.innerHTML = '<p>Seu planeta é <strong>Netuno</strong>, aqui estão os registros, Glória a União Azul!' // Netuno = uniao azul
+             } else if (pla == "Urano") {
+                res.innerHTML = '<p>Seu planeta é <strong>Urano</strong>, aqui estão os registros, Glória a União Azul!<p>' //urano = uniao azul
+             } else if (pla == "Júpter") {
+                res.innerHTML = '<p>Seu Planeta é <strong>Júpter</strong>, Você é Inimigo da União Azul, Se estiver acessando de um lugar que não seja Júpter, Por Favor se retire para evitar confusão, Boa Sorte Defedendo uma causa PERDIDA!!!<p>' // nesse teste jupter é contra a uniao azul logo é um planeta inimigo, é tratado de forma ate que educada, veja que da a entender que pura visao politica diferente.
+             } else if (pla == "Mercúrio") {
+               res.innerHTML = `<p>Não a registro de vida no planeta <strong>Mercúrio</strong>!<p>`/*Mercurio não tem registro de vida nesse meu teste de programação e obviamente não tem na vida real também */
+             } else if (pla.toLowerCase() === "terra" || pla.toLowerCase() === "netuno" || pla.toLowerCase() === "urano" || pla.toLowerCase() === "jupter" || pla.toLowerCase() === mercurio ) { // codigo usado para selecionar planetas com planetas cabivel a erro e solução(Erro de digitção*-*)*/
+               res.innerHTML = "<p>ERRO! Palavra incorreta, Tente por a primeira letra maiuscula.<p>" /*mensagem de erro se palavra for digitada errada*/
+            } 
+        }
+
+        
+    
+    </script>
+    
+</body>
+</html>
