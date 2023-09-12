@@ -152,3 +152,34 @@ footer {
     color: var(--cor00);
     padding: 5px;
 }
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    text-align: center;
+    font-size: 1.6em;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.planeta {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    text-align: center;
+}
+
