@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color: var(--cor00);
+    background-image: url('imagens/fundo.jpg');
     text-align: justify;
 }
 
