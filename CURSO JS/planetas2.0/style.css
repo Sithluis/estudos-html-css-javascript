@@ -113,3 +113,42 @@ main p {
     font-size: 1em;
     line-height: 2em;
 }
+
+main a {
+    color: var(--cor01);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main a:after {
+    content: '\00A0\1F517';
+}
+
+main a:hover {
+    color: var(--cor03);
+}
+
+aside {
+    background-color: var(--cor01);
+    color: white;
+    padding: 20px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > h1 {
+    text-align: left;
+}
+
+aside > ul {
+    list-style: '\2714\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--cor02);
+    color: var(--cor00);
+    padding: 5px;
+}
