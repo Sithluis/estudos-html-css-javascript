@@ -162,7 +162,7 @@ section {
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
     text-align: center;
-    font-size: 1.6em;
+    font-size: 1.4em;
 }
 
 section img {
@@ -170,6 +170,7 @@ section img {
     height: auto;
     display: block;
     margin: auto;
+    border-radius: 5px;
 }
 
 .planeta {
@@ -183,3 +184,8 @@ section img {
     text-align: center;
 }
 
+.clone {
+    background-color: white;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;}
