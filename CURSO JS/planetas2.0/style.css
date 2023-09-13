@@ -120,7 +120,8 @@ main p {
 }
 
 main a {
-    color: #ee6516;
+    color: orange;
+    background-color: #e03618;
     text-decoration: none;
     font-weight: bold;
     border-radius: 3px;
@@ -132,7 +133,7 @@ main a:after {
 
 main a:hover {
     color: #f02400;
-    background-color: #ec8144;
+    background-color: orange;
 }
 
 aside {
