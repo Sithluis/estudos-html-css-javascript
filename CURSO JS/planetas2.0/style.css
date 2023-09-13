@@ -1,12 +1,12 @@
 @charset "UTF 8";
 
-:root{
+/*:root{
     --cor00:#9293DD;
     --cor01:#4D4FD6;
     --cor02:#3B3CA3;
     --cor03:#1F2057;
     --cor04:#000159;
-}
+}   cores usadas na primeira versão do site*/ 
 
 * {
     margin: 0px;
@@ -14,12 +14,12 @@
 }
 
 body {
-    background-image: url('imagens/fundo.jpg');
+    background-image: url('imagens/fundo2.jpg');
     text-align: justify;
 }
 
 header{
-    background-image: linear-gradient(to bottom, var(--cor02),var(--cor03),var(--cor04));
+    background-image: url(imagens/fundo2.jpg);
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
@@ -46,13 +46,12 @@ header > p {
 }
 
 nav {
-    background-color: var(--cor04);
     padding: 10px;
     box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.192);
 }
 
 nav > a {
-    color: var(--cor00);
+    color: white;
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
@@ -129,7 +128,7 @@ main a:hover {
 }
 
 aside {
-    background-color: var(--cor01);
+    background-color: #e43415;
     color: white;
     padding: 20px;
     margin: -10px -10px 0px -10px;
@@ -148,8 +147,7 @@ aside > ul {
 
 footer {
     text-align: center;
-    background-color: var(--cor02);
-    color: var(--cor00);
+    color: white;
     padding: 5px;
 }
 
