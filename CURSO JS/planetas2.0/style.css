@@ -102,6 +102,12 @@ main img {
 main h1 {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    color: #f72904;
+}
+
+main h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #f72904;
 }
 
 main p {
@@ -114,9 +120,10 @@ main p {
 }
 
 main a {
-    color: var(--cor01);
+    color: #ee6516;
     text-decoration: none;
     font-weight: bold;
+    border-radius: 3px;
 }
 
 main a:after {
@@ -124,7 +131,8 @@ main a:after {
 }
 
 main a:hover {
-    color: var(--cor03);
+    color: #f02400;
+    background-color: #ec8144;
 }
 
 aside {
@@ -137,6 +145,7 @@ aside {
 
 aside > h1 {
     text-align: left;
+    color: white;
 }
 
 aside > ul {
