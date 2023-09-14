@@ -50,14 +50,49 @@ nav {
 
 nav > a {
     text-decoration: none;
-    color: var(--cor01);
+    color: var(--cor04);
     padding: 10px;
     font-weight: bold;
     border-radius: 5px;
-    transition-duration: 0.5s;
+    transition-duration: .5s;
 }
 
 nav > a:hover {
     background-color: var(--cor02);
     color: var(--cor03);
 }
+
+main {
+    color: white;
+    max-width: 500px;
+    min-width: 300px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+}
+
+main img {
+    max-width: 300px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+main img:hover {
+    transform: scale(1.1);
+}
+
+main h1 {
+    color: var(--cor04);
+    font-family: var(--fonte-destaque);
+    text-align: center;
+}
+
+main p {
+    color: var(--cor02);
+}
+
