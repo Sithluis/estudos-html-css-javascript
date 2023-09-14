@@ -20,7 +20,7 @@ body {
 header {
     min-height: 150px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 header {
@@ -50,7 +50,7 @@ nav {
 
 nav > a {
     text-decoration: none;
-    color: var(--cor04);
+    color: white;
     padding: 10px;
     font-weight: bold;
     border-radius: 5px;
@@ -58,8 +58,8 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color: var(--cor02);
-    color: var(--cor03);
+    background-color: #929b96;
+    color: white;
 }
 
 main {
@@ -79,6 +79,7 @@ main img {
     display: block;
     margin: auto;
     border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
     transition: transform 0.3s ease;
 }
 
@@ -96,3 +97,23 @@ main p {
     color: var(--cor02);
 }
 
+.receitas {
+    text-align: justify;
+    max-width: 700px;
+    min-width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+}
+
+.receitas > h1{
+    color: #eb2e2e;
+}
+
+.receitas > p {
+    color: black;
+}
