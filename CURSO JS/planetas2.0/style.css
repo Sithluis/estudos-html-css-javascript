@@ -14,12 +14,14 @@
 }
 
 body {
-    background-image: url('imagens/fundo2.jpg');
+    background-image: url('imagens/fundo.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: justify;
 }
 
 header{
-    background-image: url(imagens/fundo2.jpg);
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
@@ -65,7 +67,7 @@ nav > a:hover {
 }
 
 main {
-    background-color:white;
+    background-color:rgba(255, 255, 255, 0.493);
     max-width: 1000px;
     min-width: 300px;
     margin: auto;
@@ -84,7 +86,6 @@ main img {
 }
 
 .video {
-    background-color: white;
     margin: 0px -20px 30px -20px;
     padding: 20px;
     padding-bottom: 57%;
