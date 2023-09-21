@@ -121,7 +121,7 @@ main > h1 {
 main > p {
   text-align: center;
   text-align: justify;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, 'Geneva', Tahoma, sans-serif;
   font-size: 20px;
   text-indent: 30px;
 }
