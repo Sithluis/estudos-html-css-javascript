@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    background-color: darkgoldenrod;
+    text-align: justify;
+    
+}
+
+
+#main {
+    position: relative;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    background-color: rgb(211, 206, 206);
+}
+
+
+section#menu img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+}
+
+section#menu img:hover {
+    border: 2px solid white;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+    transition: transform .3s;
+}
+
