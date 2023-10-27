@@ -11,29 +11,72 @@ Desktop: de 992px até 1200px
 Grandes telas: acima de 1200px
 */
 
-@media print {  /*impressão*/
-     
-}
+@media print {  
+    
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /*impressão*/
+    /* body {
+        background: url(../imagens/back-print.jpg); 
+     }   DESNECESSARIO*/
+ 
+     main {
+        border: 2px solid black;
+     }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {  /*tablet*/
+     main::after {
+        content: "Esse site foi feito por LuisAraujo";
+     }
+
+    main h1 {
+        text-shadow: none;
+        color: black;
+    }
+
+    #phone {display: none;}
+    #tablet {display: none;}
+    #print {display: block;}
+    #pc {display: none;}
+    #tv {display: none;}
+    }
+
+@media screen and (min-width: 690px) and (max-width: 930px) {  /*tablet*/
     body {
         background: url(../imagens/back-tablet.jpg);
     }
     
+    #phone {display: none;}
+    #tablet {display: block;}
+    #print {display: none;}
+    #pc {display: none;}
+    #tv {display: none;}
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {  /*desktop*/
+@media screen and (min-width: 930px) and (max-width: 1300px) {  /*desktop*/
 
     body {
         background: url(../imagens/back-pc.jpg);
     }
+
+    #phone {display: none;}
+    #tablet {display: none;}
+    #print {display: none;}
+    #pc {display: block;}
+    #tv {display: none;}
     
 }
 
-@media screen and (min-width: 992px) {  /*telas grandes*/
+@media screen and (min-width: 1300px) {  /*telas grandes*/
 
     body {
         background: url(../imagens/back-tv.jpg);
     }
     
+    #phone {display: none;}
+    #tablet {display: none;}
+    #print {display: none;}
+    #pc {display: none;}
+    #tv {display: block;}
+
 }
