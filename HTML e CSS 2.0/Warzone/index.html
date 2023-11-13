@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warzone Noticias</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-queiries.css">
+</head>
+
+<body onresize="mudoutamanho()">
+    <header>
+        <h1>Tudo sobre Warzone</h1>
+    </header>
+    <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+    <menu id="itens">
+        <ul>
+            <li>
+                <a href="#">Home</a>
+                <a href="#">Vazamentos</a>
+                <a href="#">Lançamentos</a>
+                <a href="#">E-Sports</a>
+                <a href="#">Critícas</a>
+            </li>
+        </ul>
+    </menu>
+
+    <main>
+        <section>
+            <h1>Warzone é uma Decepção?</h1>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsam aliquid voluptate itaque autem
+                adipisci tempore vitae. Nostrum aspernatur dolorum soluta fugiat. Enim quidem saepe quaerat. Et odio
+                mollitia eligendi! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia ipsa dolore porro
+                molestias nostrum vel nesciunt molestiae veritatis dignissimos rem eos repellat, consectetur, quasi quos
+                fugiat aut non impedit cum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nihil asperiores, maiores error in et!
+                Reprehenderit totam eligendi, vel, dolorem ducimus voluptatem minima debitis natus laborum accusantium at
+                maiores distinctio.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi maiores assumenda ea sunt fugit quam
+                repudiandae nostrum, minus perferendis nemo iste tenetur distinctio unde possimus amet rerum.
+                Perferendis, excepturi maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate soluta
+                dicta rerum nostrum nisi accusamus repellat dolorem, minus eos nulla expedita, sunt aperiam! Ratione,
+                perferendis impedit. Quae, pariatur laudantium? Quod.</p>
+        </section>
+        <br>
+        <section>
+            <h2>O que esperar da Season 6</h2>
+            <br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium excepturi perspiciatis quod illum
+                quae asperiores provident magnam velit animi soluta facere, placeat quia similique. Delectus magni
+                voluptates aliquid nihil officia! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit
+                blanditiis similique temporibus voluptates sapiente cumque, cupiditate, necessitatibus perspiciatis
+                explicabo praesentium possimus quod itaque, quo vitae unde veritatis earum repellendus harum!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero provident accusamus laboriosam, laborum
+                ad labore officia rem dignissimos cumque exercitationem. Sed odio odit corporis praesentium aliquid alias
+                repudiandae ipsum labore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis quisquam
+                asperiores corporis voluptatibus harum adipisci quo natus repellat cum dignissimos, commodi ea atque
+                autem! Enim atque harum ex quidem accusantium?</p>
+
+        </section>
+        <br>
+        <section>
+            <h2>Loadouts na Season 6</h2>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ratione quos odit! Excepturi animi earum
+                aliquid inventore magni ipsa tempora laborum quaerat temporibus, in numquam optio quibusdam laudantium?
+                Possimus, mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nulla unde labore
+                adipisci est accusantium soluta, placeat nostrum ut? Harum, ratione? Sunt vero voluptate temporibus quasi
+                explicabo aliquid repellat ipsam!
+            </p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem perspiciatis eveniet quos possimus
+                blanditiis maxime optio accusantium suscipit libero laboriosam explicabo quis officiis a autem dolores
+                similique, eligendi, voluptates impedit.</p>
+        </section>
+    </main>
+    <script>
+        function mudoutamanho() {
+            const itens = document.getElementById('itens');
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block';
+            } else {
+                itens.style.display = 'none';
+            }
+        }
+
+        function clickMenu() {
+            const itens = document.getElementById('itens');
+            if (itens.style.display === 'block') {
+                itens.style.display = 'none';
+            } else {
+                itens.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+
+</html>
