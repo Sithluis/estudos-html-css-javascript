@@ -1,21 +1,16 @@
 @charset "UTF-8";
 
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
 body {
-    background-color:  rgba(50, 50, 128, 0.719);
+    background-color:  rgba(228, 32, 32, 0.719);
 }
 
 header{
         margin: auto;
-        background-color: rgba(50, 50, 128, 0.719);
+        background-color: rgba(209, 183, 38, 0.719);
         text-align: center;
         padding-top: 10px;
-        border-radius: 0px 0px 10px 10px;
-        width: 100vw;
+        
+        width: 80vw;
         min-height: 130px;
 }
     
@@ -29,10 +24,12 @@ header > h1 {
 }
 
 menu {
-    background-color:  rgba(50, 50, 128, 0.719);
+    width: 76vw;
+    background-color:  rgba(209, 183, 38, 0.719);
     margin: auto;
     padding: 10px;
     box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.363);
+    border-radius: 0px 0px 10px 10px;
 }
 
 menu > a {
@@ -45,28 +42,36 @@ menu > a {
 }
 
 menu > a:hover {
-    background-color: rgb(113, 113, 212);
-    color: rgb(40, 40, 83);
+    background-color: rgb(223, 200, 98);
+    color: rgba(105, 95, 33, 0.719);
 }
 
 section {
-    color: white;
+    color: rgb(0, 0, 0);
+    padding: 20px;
     margin: auto;
-    background-color:  rgba(62, 62, 161, 0.719);
-    width: 70%;
-    height: 70%;
-    padding: 25px;
-    border-radius: 10px;
-    border-bottom-left-radius:10px ;
-    border-bottom-right-radius: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.274);
 
-    /*configurações de texto*/
+}
 
-    color: white;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    text-indent: 5px;
+section > div {
+    background-color: rgba(255, 255, 255, 0.664);
+    padding: 20px;
+    border-radius: px;
+}
 
+#res {
+    border-radius: 0px 0px 10px 10px;
+}
+
+#cima {
+    border-radius: 10px 10px 0px 0px ;
+}
+
+#red {
+    color: red;
+    font-size: 1,9;
+    font-weight: bolder;
 }
 
 section > p {
@@ -87,5 +92,21 @@ section img {
 }
 
 footer {
+    text-align: center;
+    background-color: rgba(209, 183, 38, 0.719);
+    padding: 7px;
+    border-radius: 10px;
+}
 
+footer > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: .3s;
+}
+
+footer > a:hover {
+    color: rgb(1, 116, 248);
 }

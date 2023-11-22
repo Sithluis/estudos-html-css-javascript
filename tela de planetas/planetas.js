@@ -5,7 +5,7 @@ function verificar() {
     img.setAttribute('id', 'foto');
 
     if (pla === "terra") {
-        resDiv.textContent = "A terra é o único planeta conhecido a abrigar vida. composto por oceanos, continentes e uma atmosfera rica em oxigênio e nitrogênio.uma lua que se chama lua, orbita a Terra"
+        resDiv.textContent = "A terra é o único planeta conhecido a abrigar vida. composto por oceanos, continentes e uma atmosfera rica em oxigênio e nitrogênio.uma lua que se chama LUA e que órbita a Terra"
         img.setAttribute('src', 'imagens/terra.png'); // foto do planeta terra
     } 
     
