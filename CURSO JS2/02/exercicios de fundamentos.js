@@ -79,4 +79,54 @@ converterHorario("20:30");
 
 converterHorario("10:23");
 
+// ++Exercicios
+// Soma
+let n1 = 9
+let n2 = 7
 
+const resM = n1 + n2
+
+console.log(`A soma de ${n1} + ${n2} é igual a: ${resM}`)
+
+// Subtração
+
+let n3 = 230
+let n4 = 121
+
+const resS = n3 - n4 
+
+console.log(`O resultado da subtração de ${n3} por ${n4} é: ${resS}`)
+
+// Multiplicação
+
+let n5 = 7
+let n6 = 9
+
+const resX = n5 * n6 
+
+console.log(`O resultado da multiplicação de ${n5} x ${n6} é: ${resX}`)
+
+// Divisão
+
+let n7 = 72
+let n8 = 3
+
+const resD = n7 / n8
+
+console.log(`A divisão de ${n7} por ${n8} é: ${resD}`)
+
+// descrição Luis
+
+const nome = "Luis Carlos"
+let idade = 20
+const sexo = "Masculino"
+
+console.log(`Meu nome é ${nome} tenho ${idade} anos e sou do sexo ${sexo}`)
+
+// Descrição jaqueline
+
+const name = "Jaqueline"
+let age = 20
+const sex = "Feminino"
+
+console.log(`Essa é a ${name} ela tem ${age} e é do sexo ${sex}`)
