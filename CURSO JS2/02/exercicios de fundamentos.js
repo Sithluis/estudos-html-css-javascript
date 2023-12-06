@@ -130,3 +130,13 @@ let age = 20
 const sex = "Feminino"
 
 console.log(`Essa é a ${name} ela tem ${age} e é do sexo ${sex}`)
+
+// descrição de Aluno
+
+const nameA = "Lucas"
+let ageA = 16
+const sexA = "M"
+const materia = "História"
+let nota = 8.3
+
+console.log(`O aluno ${nameA} de ${ageA} anos e do sexo ${sexA}, teve a nota de ${nota} em ${materia}`)
