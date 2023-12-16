@@ -3,7 +3,7 @@ const display = document.querySelector("#displayInput")
 const botaoIgual = document.querySelector(".igual")
 const botaoPonto = document.querySelector(".ponto")
 const botoesNumeros = document.querySelectorAll(".num")
-const botoesOperadores = document.querySelector(".operador")
+const botoesOperadores = document.querySelectorAll(".operador")
 
 // Variáveis globais
 let operacaoAtual = ""
@@ -34,6 +34,47 @@ function inserePonto() {
     }
 }
 
+function insereOperador(evento) {
+    if(operacaoAtual !== "") {
+        if(!calculando) {
+            if(operador !== null) {
+                calcula()
+            }
+            valorAnterior = operacaoAtual
+            operacaoAtual = ""
+        }
+        operador = evento.target.textContent
+    }
+}
+
+function calcula() {
+    let resultado = null
+    const operandoAnterior = parseFloat(valorAnterior)
+    const operandoAtual = parseFloat(operacaoAtual)
+
+    switch (operador) {
+        case "+":
+            resultado = operandoAnterior + operandoAtual;
+            break;
+        case "-":
+            resultado = operandoAnterior - operandoAtual;
+            break;
+        case "*":
+            resultado = operandoAnterior * operandoAtual;
+            break;
+        case "/":
+            resultado = operandoAnterior / operandoAtual;
+            break;
+    }
+
+    operacaoAtual = String(resultado)
+    valorAnterior = operacaoAtual
+    calculando = true
+    atualizaDisplay()
+}
+
 // Eventos
 botaoPonto.addEventListener("click", inserePonto)
 botoesNumeros.forEach((botao) => botao.addEventListener("click", insereNumero))
+botoesOperadores.forEach((botao) => botao.addEventListener("click", insereOperador))
+botaoIgual.addEventListener("click", calcula) 
