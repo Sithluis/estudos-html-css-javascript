@@ -25,12 +25,12 @@ function verificar() {
     }
 
     else if (pla === "saturno") {
-        resDiv.textContent = "Conhecido pelos seus anéis espetaculares, compostos princpalmente de partículas de gelo e poeira, Também é um gigante gasoso, com atmosfera ica em hidrogênio e hélio, Possui dezenas de luas, incluindo Titã, que possui uma atmosfera espessa e lagos de metano e etano."
+        resDiv.textContent = "Conhecido pelos seus anéis espetaculares, compostos princpalmente de partículas de gelo e poeira, Também é um gigante gasoso, com atmosfera rica em hidrogênio e hélio, Possui dezenas de luas, incluindo Titã, que possui uma atmosfera espessa e lagos de metano e etano."
         img.setAttribute('src', 'imagens/saturno.png') // foto do planeta saturno
     }
 
     else if (pla === "jupter") {
-        resDiv.textContent = "O maior planeta do Sistema Solar, composto principalmente de hidrogênio e hélio, possui uma atmosfera turbulenta com faixas de nuvens e a Grande Mancha Vermelha, uma gifantesca tempestaden tem mais de 80 luas conhecidas, incluindo as quatro luas galieanas: lo, europa, ganimedes e calisto."
+        resDiv.textContent = "O maior planeta do Sistema Solar, composto principalmente de hidrogênio e hélio, possui uma atmosfera turbulenta com faixas de nuvens e a Grande Mancha Vermelha, uma gigantesca tempestade, tem mais de 80 luas conhecidas, incluindo as quatro luas galieanas: lo, europa, ganimedes e calisto."
         img.setAttribute('src', 'imagens/jupiter.png') // foto do planeta jupter
     }
 
