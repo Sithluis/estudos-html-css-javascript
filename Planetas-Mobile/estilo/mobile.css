@@ -67,7 +67,19 @@ nav > a:hover {
 
 .lado {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#textpla {
+    flex-grow: 1;
+    padding: 5px;
+}
+
+#botaoVerificar {
+    margin-left: 185px;
+    padding: 5px 10px;
 }
 
   main {
@@ -82,11 +94,11 @@ nav > a:hover {
   }
 
   main > h1 {
-    font-size: 15px;
+    font-size: 20px;
   }
 
   div > p {
-    font-size: 13px;
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-align: justify;
