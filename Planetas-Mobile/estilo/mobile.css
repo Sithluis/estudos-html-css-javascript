@@ -20,7 +20,7 @@ body {
 
 header {
     background-image: linear-gradient(to bottom, #1111e9, #4949e7, #7373e9 );
-    max-height: 150px;
+    min-height: 150px;
     text-align: center;
     padding-top: 40px;
 }
@@ -40,7 +40,7 @@ header > p {
     font-size: 14px;
     padding-left: 10px;
     padding-right: 10px;
-    max-width: 300px;
+    max-width: 150px;
     margin: auto;
     margin-bottom: 20px;
 }
