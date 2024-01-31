@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retorno de informações</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+
+    <main>
+
+        <h1>
+            Informações do Usuário
+        </h1>
+        <div id="linha"></div>
+        <div>
+
+            <p>Nome: 
+                <input type="text" name="nomeU" id="nomeU" placeholder="Seu nome">
+            </p>
+
+            <p>Idade:
+                <input type="number" name="idadeU" id="idadeU" placeholder="Sua idade">
+            </p>
+
+            <p>
+                Profissão:
+                <input type="text" name="profU"
+                id="profU" placeholder="Sua Profissão">
+            </p>
+
+            <p>
+                Curso:
+                <input type="text" name="cursoU"
+                id="cursoU" placeholder="Nome do seu Curso">
+            </p>
+            
+            <p id="ve">
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+
+        <div id="res">
+
+        </div>
+    </main>
+</body>
+
+<script src="JS/script.js"></script>
+
+</html>
